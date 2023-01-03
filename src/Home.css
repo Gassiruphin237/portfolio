@@ -1,0 +1,48 @@
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 80px; */
+    background-color: #015346;
+    color: #ffff;
+    width: 100% !important;
+    /* height: 400px; */
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.form p {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 23px;
+    text-shadow: 2px 2px gray;
+}
+.form button{
+    float: left !important;
+    height: 50px;
+    color: white;
+    border-color: gray;
+    margin: 20px;
+
+}
+.form a{
+    color: white;
+}
+.form a:hover{
+    color: #227C70;
+}
+.form button:hover{
+    color: #227C70;
+    background-color: white;
+    border: #227C70;
+}
